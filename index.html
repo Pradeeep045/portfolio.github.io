@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Imprima&family=Passion+One:wght@400;700;900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+        body {
+            background-color: rgb(198, 223, 223);
+        }
+        .nav{
+            font-size: 2vw;
+        }
+        /* .header,.main{
+            background-color: white;
+        } */
+
+        .header>ol {
+            display: inline-flex;
+            gap: 30px;
+            float: right;
+            list-style: none;
+            font-family: quantico;
+            font-size: 15;
+            margin-top: 12px;
+        }
+
+        .name>h1 {
+            font-family: passion one;
+            font-size: 10vw;
+            margin-top: 50px;
+        }
+
+        .content {
+            font-family: imprima;
+            font-size: 2.5vw;
+        }
+
+        .image {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            width: 300px;
+            height: 300px;
+            float: right;
+            border-radius: 200px;
+            margin-right: 50px;
+        }
+
+        .image>img {
+            box-shadow: 10px 10px 20px gray;
+            /* background-color: aqua; */
+        }
+
+        .Cv>button {
+            width: 200px;
+            height: 50px;
+            margin-top: 12px;
+            font-size: 1.5vw;
+        }
+
+        .but>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .about {
+            margin-top: px;
+            text-align: center ;
+        }
+
+        .about>h2 {
+            margin: auto;
+            font-family: passion one;
+            font-size: 6vw;
+        }
+
+        .about>p {
+            text-align: center;
+            font-size: 3vw;
+            font-family: imprima;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .cop {
+            margin-left: px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: white;
+        }
+        a:active{
+            
+        }
+        .skill {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .skill>h2 {
+            font-family: passion one;
+            font-size: 6vw;
+        }
+
+        /* .sname{
+            list-style: none;
+            font-size: 30px;
+            font-family: imprima;
+        } */
+
+        .skill>p{
+            font-family: imprima;
+            margin-left: 10px;
+            font-size: 3vw;
+        }
+        .skills {
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        .html {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            background-color: #000000;
+        }
+
+        .css {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            background-color: #000000;
+        }
+
+        .js {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 65%;
+            background-color: #000000;
+        }
+
+        .php {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            background-color: #000000;
+        }
+        .skills{
+            font-size: 2vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: imprima;
+            border-radius: 10px;
+            margin-right: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/boot@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="header  col-lg-12 col-md-12 col-sm-12">
+                <ol class="nav">
+                    <li><a href="#calla">About</li></a>
+                    <li>blog</li>
+                    <li>contact</li>
+                </ol>
+            </div>
+            <div class="main">
+                <div class="col-lg-6 col-md-6 col-sm-12 image">
+                    <img class="image" src="portfolio.jpg">
+                </div>
+                <div class="name">
+                    <h1 class="namee">Hi,I am Pradeep,<br>Video Editor</h1>
+                    <p class="col-lg-6 col-md-6 col-sm-12 content namee">I am a professional video editor who can craft
+                        you're
+                        raw footage into engaging content and get the results and aslo has an 2 years of experience in
+                        Softwares </p>
+                </div>
+                <div class="Cv">
+                    <button type="button" class="btn btn-dark but">
+                        <a href="https://drive.google.com/file/d/1O38LihRXPJA9VlphKiqR31b8NEsbs1fA/view?usp=sharing"
+                            target="blank">
+                            Download Cv</button>
+                </div>
+                </a>
+            </div>
+            <div class="about col-lg-12 col-md-12 col-sm-12">
+                <h2 class="cop" id="calla">About</h2>
+                <p class="txta cop">Welcome! I'm an automobile engineer turned passionate video and film
+                    editor. With a unique blend
+                    of technical precision and creative flair, I bring a distinctive perspective to content
+                    creation. Over the past year, I've had the pleasure of freelancing with social media content
+                    creators, helping them craft engaging and polished videos that resonate with their audiences.</p>
+            </div>
+            <div class="skill  col-lg-12 col-md-12 col-sm-12">
+                <h2>Skill</h2>
+                <p>Premiere pro</p>
+                <div class="container">
+                    <div class="skills html">90%</div>
+                </div>
+
+                <p>After effects</p>
+                <div class="container">
+                    <div class="skills css">80%</div>
+                </div>
+
+                <p>Davinci Resolve</p>
+                <div class="container">
+                    <div class="skills js">65%</div>
+                </div>
+
+                <p>avid</p>
+                <div class="container">
+                    <div class="skills php">60%</div>
+                </div>
+            </div>
+            <div class="work">
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
